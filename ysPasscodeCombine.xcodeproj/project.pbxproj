@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA70FD3827AFD69F00D54B82 /* UIcontrol+CombineCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA70FD3727AFD69F00D54B82 /* UIcontrol+CombineCompatible.swift */; };
+		CA70FD3A27AFD6E900D54B82 /* UIControlPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA70FD3927AFD6E900D54B82 /* UIControlPublisher.swift */; };
+		CA70FD3C27AFD71E00D54B82 /* UIControlSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA70FD3B27AFD71E00D54B82 /* UIControlSubscription.swift */; };
+		CAE8F7B327AF7458003BE62F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F7B227AF7458003BE62F /* AppDelegate.swift */; };
+		CAE8F7B527AF7458003BE62F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F7B427AF7458003BE62F /* SceneDelegate.swift */; };
+		CAE8F7BA27AF7458003BE62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE8F7B827AF7458003BE62F /* Main.storyboard */; };
+		CAE8F7BC27AF7459003BE62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE8F7BB27AF7459003BE62F /* Assets.xcassets */; };
+		CAE8F7BF27AF7459003BE62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE8F7BD27AF7459003BE62F /* LaunchScreen.storyboard */; };
+		CAE8F7C927AF7599003BE62F /* NumpadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F7C827AF7599003BE62F /* NumpadButton.swift */; };
+		CAE8F7CB27AF7D2B003BE62F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F7CA27AF7D2B003BE62F /* Extensions.swift */; };
+		CAE8F7CD27AF8594003BE62F /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8F7CC27AF8594003BE62F /* PasscodeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA70FD3727AFD69F00D54B82 /* UIcontrol+CombineCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcontrol+CombineCompatible.swift"; sourceTree = "<group>"; };
+		CA70FD3927AFD6E900D54B82 /* UIControlPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlPublisher.swift; sourceTree = "<group>"; };
+		CA70FD3B27AFD71E00D54B82 /* UIControlSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlSubscription.swift; sourceTree = "<group>"; };
+		CAE8F7AF27AF7458003BE62F /* ysPasscodeCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ysPasscodeCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE8F7B227AF7458003BE62F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAE8F7B427AF7458003BE62F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAE8F7B927AF7458003BE62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAE8F7BB27AF7459003BE62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE8F7BE27AF7459003BE62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAE8F7C027AF7459003BE62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE8F7C827AF7599003BE62F /* NumpadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumpadButton.swift; sourceTree = "<group>"; };
+		CAE8F7CA27AF7D2B003BE62F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CAE8F7CC27AF8594003BE62F /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE8F7AC27AF7458003BE62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA70FD3627AF935600D54B82 /* UIControlPublisher */ = {
+			isa = PBXGroup;
+			children = (
+				CA70FD3727AFD69F00D54B82 /* UIcontrol+CombineCompatible.swift */,
+				CA70FD3927AFD6E900D54B82 /* UIControlPublisher.swift */,
+				CA70FD3B27AFD71E00D54B82 /* UIControlSubscription.swift */,
+			);
+			path = UIControlPublisher;
+			sourceTree = "<group>";
+		};
+		CA70FD3D27AFF3CA00D54B82 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7CA27AF7D2B003BE62F /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA70FD3E27AFF3DC00D54B82 /* CustomUIControls */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7C827AF7599003BE62F /* NumpadButton.swift */,
+			);
+			path = CustomUIControls;
+			sourceTree = "<group>";
+		};
+		CAE8F7A627AF7458003BE62F = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7B127AF7458003BE62F /* ysPasscodeCombine */,
+				CAE8F7B027AF7458003BE62F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE8F7B027AF7458003BE62F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7AF27AF7458003BE62F /* ysPasscodeCombine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE8F7B127AF7458003BE62F /* ysPasscodeCombine */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7B227AF7458003BE62F /* AppDelegate.swift */,
+				CAE8F7B427AF7458003BE62F /* SceneDelegate.swift */,
+				CAE8F7CC27AF8594003BE62F /* PasscodeViewController.swift */,
+				CA70FD3D27AFF3CA00D54B82 /* Extensions */,
+				CA70FD3E27AFF3DC00D54B82 /* CustomUIControls */,
+				CA70FD3627AF935600D54B82 /* UIControlPublisher */,
+				CAE8F7C627AF74A9003BE62F /* Storyboards */,
+				CAE8F7C727AF74B5003BE62F /* Resources */,
+			);
+			path = ysPasscodeCombine;
+			sourceTree = "<group>";
+		};
+		CAE8F7C627AF74A9003BE62F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7B827AF7458003BE62F /* Main.storyboard */,
+				CAE8F7BD27AF7459003BE62F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CAE8F7C727AF74B5003BE62F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8F7BB27AF7459003BE62F /* Assets.xcassets */,
+				CAE8F7C027AF7459003BE62F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE8F7AE27AF7458003BE62F /* ysPasscodeCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE8F7C327AF7459003BE62F /* Build configuration list for PBXNativeTarget "ysPasscodeCombine" */;
+			buildPhases = (
+				CAE8F7AB27AF7458003BE62F /* Sources */,
+				CAE8F7AC27AF7458003BE62F /* Frameworks */,
+				CAE8F7AD27AF7458003BE62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ysPasscodeCombine;
+			productName = ysPasscodeCombine;
+			productReference = CAE8F7AF27AF7458003BE62F /* ysPasscodeCombine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE8F7A727AF7458003BE62F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CAE8F7AE27AF7458003BE62F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CAE8F7AA27AF7458003BE62F /* Build configuration list for PBXProject "ysPasscodeCombine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE8F7A627AF7458003BE62F;
+			productRefGroup = CAE8F7B027AF7458003BE62F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE8F7AE27AF7458003BE62F /* ysPasscodeCombine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE8F7AD27AF7458003BE62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE8F7BF27AF7459003BE62F /* LaunchScreen.storyboard in Resources */,
+				CAE8F7BC27AF7459003BE62F /* Assets.xcassets in Resources */,
+				CAE8F7BA27AF7458003BE62F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE8F7AB27AF7458003BE62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE8F7CB27AF7D2B003BE62F /* Extensions.swift in Sources */,
+				CA70FD3827AFD69F00D54B82 /* UIcontrol+CombineCompatible.swift in Sources */,
+				CA70FD3C27AFD71E00D54B82 /* UIControlSubscription.swift in Sources */,
+				CAE8F7B327AF7458003BE62F /* AppDelegate.swift in Sources */,
+				CA70FD3A27AFD6E900D54B82 /* UIControlPublisher.swift in Sources */,
+				CAE8F7CD27AF8594003BE62F /* PasscodeViewController.swift in Sources */,
+				CAE8F7B527AF7458003BE62F /* SceneDelegate.swift in Sources */,
+				CAE8F7C927AF7599003BE62F /* NumpadButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAE8F7B827AF7458003BE62F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE8F7B927AF7458003BE62F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE8F7BD27AF7459003BE62F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE8F7BE27AF7459003BE62F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE8F7C127AF7459003BE62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAE8F7C227AF7459003BE62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE8F7C427AF7459003BE62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NK62H99X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ysPasscodeCombine/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jareksedy.ysPasscodeCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAE8F7C527AF7459003BE62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NK62H99X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ysPasscodeCombine/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jareksedy.ysPasscodeCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE8F7AA27AF7458003BE62F /* Build configuration list for PBXProject "ysPasscodeCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE8F7C127AF7459003BE62F /* Debug */,
+				CAE8F7C227AF7459003BE62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE8F7C327AF7459003BE62F /* Build configuration list for PBXNativeTarget "ysPasscodeCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE8F7C427AF7459003BE62F /* Debug */,
+				CAE8F7C527AF7459003BE62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE8F7A727AF7458003BE62F /* Project object */;
+}

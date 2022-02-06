@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Passcode View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="PasscodeViewController" customModule="ysPasscodeCombine" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите код доступа" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCD-8M-YCM">
+                                <rect key="frame" x="25" y="94" width="364" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="unS-ia-9Rl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <color key="textColor" systemColor="systemBrownColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Irx-rz-Ujk">
+                                <rect key="frame" x="30" y="267.5" width="354" height="544.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9MX-qO-C56">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="22"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wQ9-as-7xg">
+                                                <rect key="frame" x="75" y="4.5" width="51" height="13"/>
+                                                <color key="tintColor" systemColor="systemBrownColor"/>
+                                                <imageReference key="image" image="circle" catalog="system" symbolScale="default"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="10" scale="default" weight="black"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kMv-Ta-fcQ">
+                                                <rect key="frame" x="126" y="4.5" width="51" height="13"/>
+                                                <color key="tintColor" systemColor="systemBrownColor"/>
+                                                <imageReference key="image" image="circle" catalog="system" symbolScale="default"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="10" scale="default" weight="black"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VCT-eJ-54h">
+                                                <rect key="frame" x="177" y="4.5" width="51" height="13"/>
+                                                <color key="tintColor" systemColor="systemBrownColor"/>
+                                                <imageReference key="image" image="circle" catalog="system" symbolScale="default"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="10" scale="default" weight="black"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Afe-GU-H9l">
+                                                <rect key="frame" x="228" y="4.5" width="51" height="13"/>
+                                                <color key="tintColor" systemColor="systemBrownColor"/>
+                                                <imageReference key="image" image="circle" catalog="system" symbolScale="default"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="10" scale="default" weight="black"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                                        <edgeInsets key="layoutMargins" top="5" left="75" bottom="5" right="75"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="tvG-TJ-u7q">
+                                        <rect key="frame" x="0.0" y="72" width="354" height="472.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="L5B-63-8KZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="117.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pd-BC-tiN" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="117.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="1pd-BC-tiN" secondAttribute="height" multiplier="1:1" id="Beh-zN-N6u"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="1">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZC4-6K-Ozg" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="118.5" y="0.0" width="117" height="117.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="ZC4-6K-Ozg" secondAttribute="height" multiplier="1:1" id="YQi-8K-qID"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="2">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPI-EU-Gh5" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="236.5" y="0.0" width="117.5" height="117.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="DPI-EU-Gh5" secondAttribute="height" multiplier="1:1" id="v7F-fy-8Qw"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="3">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="6fs-xY-wL0">
+                                                <rect key="frame" x="0.0" y="118.5" width="354" height="117.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaE-FJ-cpa" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="117.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="IaE-FJ-cpa" secondAttribute="height" multiplier="1:1" id="TFi-xN-S85"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="4">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9v-pa-6dP" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="118.5" y="0.0" width="117" height="117.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="y9v-pa-6dP" secondAttribute="height" multiplier="1:1" id="vfk-TX-3sK"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="5">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCu-Ch-9xa" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="236.5" y="0.0" width="117.5" height="117.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="fCu-Ch-9xa" secondAttribute="height" multiplier="1:1" id="646-ow-zz3"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="6">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="wwO-Mh-Nyg">
+                                                <rect key="frame" x="0.0" y="237" width="354" height="117"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZp-va-EXX" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="117"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="aZp-va-EXX" secondAttribute="height" multiplier="1:1" id="Atd-id-COy"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="7">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfA-f5-pet" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="118.5" y="0.0" width="117" height="117"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="JfA-f5-pet" secondAttribute="height" multiplier="1:1" id="oMM-9E-IdU"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="8">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xls-ev-9bC" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="236.5" y="0.0" width="117.5" height="117"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="xls-ev-9bC" secondAttribute="height" multiplier="1:1" id="oPR-VK-juG"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="9">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="OoJ-Mk-bNE">
+                                                <rect key="frame" x="0.0" y="355" width="354" height="117.5"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xVc-vH-nAX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="117.5"/>
+                                                    </view>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdU-di-kR2" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="118.5" y="0.0" width="117" height="117.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="wdU-di-kR2" secondAttribute="height" multiplier="1:1" id="v14-pY-zO6"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="0">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAd-UP-sJ2" customClass="NumpadButton" customModule="ysPasscodeCombine" customModuleProvider="target">
+                                                        <rect key="frame" x="236.5" y="0.0" width="117.5" height="117.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="FAd-UP-sJ2" secondAttribute="height" multiplier="1:1" id="lNV-lh-Sbb"/>
+                                                        </constraints>
+                                                        <color key="tintColor" systemColor="systemBrownColor"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" systemColor="systemBrownColor"/>
+                                                            <imageReference key="image" image="delete.left" catalog="system" symbolScale="default"/>
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="18" weight="medium"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="wdU-di-kR2" firstAttribute="width" secondItem="wdU-di-kR2" secondAttribute="height" multiplier="1:1" id="txY-VO-mqY"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yCD-8M-YCM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="9jD-0C-Gzf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Irx-rz-Ujk" secondAttribute="bottom" constant="50" id="XmO-kd-oli"/>
+                            <constraint firstItem="Irx-rz-Ujk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="YT6-yV-vMw"/>
+                            <constraint firstItem="yCD-8M-YCM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="an2-li-Fqw"/>
+                            <constraint firstItem="Irx-rz-Ujk" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yCD-8M-YCM" secondAttribute="bottom" constant="25" id="iG5-cY-18W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Irx-rz-Ujk" secondAttribute="trailing" constant="30" id="qej-GM-dno"/>
+                            <constraint firstAttribute="trailing" secondItem="yCD-8M-YCM" secondAttribute="trailing" constant="25" id="tJR-gC-A6U"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fMK-74-0Dn"/>
+                    <connections>
+                        <outlet property="backspaceButton" destination="FAd-UP-sJ2" id="vDV-ol-hF2"/>
+                        <outlet property="numpadStackView" destination="tvG-TJ-u7q" id="eYS-AB-UjL"/>
+                        <outlet property="passcodeLabel" destination="yCD-8M-YCM" id="DvK-dL-aUO"/>
+                        <outlet property="passcodeStackView" destination="9MX-qO-C56" id="lhM-Ym-FCS"/>
+                        <outletCollection property="circles" destination="wQ9-as-7xg" collectionClass="NSMutableArray" id="ceb-8V-bAB"/>
+                        <outletCollection property="circles" destination="kMv-Ta-fcQ" collectionClass="NSMutableArray" id="6m9-1X-KaC"/>
+                        <outletCollection property="circles" destination="VCT-eJ-54h" collectionClass="NSMutableArray" id="g0x-Jb-xhx"/>
+                        <outletCollection property="circles" destination="Afe-GU-H9l" collectionClass="NSMutableArray" id="Gtw-bH-gG0"/>
+                        <outletCollection property="digitButtons" destination="wdU-di-kR2" collectionClass="NSMutableArray" id="U9M-LE-S1H"/>
+                        <outletCollection property="digitButtons" destination="xls-ev-9bC" collectionClass="NSMutableArray" id="EMm-m3-mzf"/>
+                        <outletCollection property="digitButtons" destination="JfA-f5-pet" collectionClass="NSMutableArray" id="Yxc-GB-OWs"/>
+                        <outletCollection property="digitButtons" destination="aZp-va-EXX" collectionClass="NSMutableArray" id="3j3-JV-36U"/>
+                        <outletCollection property="digitButtons" destination="fCu-Ch-9xa" collectionClass="NSMutableArray" id="1ri-LZ-smB"/>
+                        <outletCollection property="digitButtons" destination="y9v-pa-6dP" collectionClass="NSMutableArray" id="jWW-OV-KUS"/>
+                        <outletCollection property="digitButtons" destination="IaE-FJ-cpa" collectionClass="NSMutableArray" id="pRe-1x-DZs"/>
+                        <outletCollection property="digitButtons" destination="DPI-EU-Gh5" collectionClass="NSMutableArray" id="1tU-2U-lMz"/>
+                        <outletCollection property="digitButtons" destination="ZC4-6K-Ozg" collectionClass="NSMutableArray" id="gPC-hm-TZZ"/>
+                        <outletCollection property="digitButtons" destination="1pd-BC-tiN" collectionClass="NSMutableArray" id="J0e-4P-4GA"/>
+                        <outletCollection property="digitButtons" destination="FAd-UP-sJ2" collectionClass="NSMutableArray" id="bmV-lN-lQI"/>
+                        <segue destination="VsU-Bc-ham" kind="show" identifier="toMainScene" id="LE1-dy-HRh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201" y="138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="L07-mf-TLj">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="VsU-Bc-ham" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mHr-JB-dXK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Йее, вы авторизованы!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVE-1n-7Ns">
+                                <rect key="frame" x="111.5" y="435.5" width="191" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="t4s-oP-NGL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <color key="textColor" systemColor="systemBrownColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="076-zE-lki"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QVE-1n-7Ns" firstAttribute="centerX" secondItem="mHr-JB-dXK" secondAttribute="centerX" id="Ezf-kl-Cjl"/>
+                            <constraint firstItem="QVE-1n-7Ns" firstAttribute="centerY" secondItem="mHr-JB-dXK" secondAttribute="centerY" id="H0L-bh-PbC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qkh-Ae-1Nx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAr-U2-nBy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circle" catalog="system" width="128" height="121"/>
+        <image name="delete.left" catalog="system" width="128" height="104"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
